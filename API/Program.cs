@@ -29,7 +29,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(_allowAllOriginsForDevelopment);
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
