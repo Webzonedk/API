@@ -27,9 +27,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
-
 app.UseCors(_allowAllOriginsForDevelopment);
+
+app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
